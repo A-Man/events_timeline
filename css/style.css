@@ -456,7 +456,7 @@ Main components
   top: 0px;
   height: 900px;
   width: 100%;
-  z-index: -500;
+  z-index: -20;
   margin: 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -466,7 +466,7 @@ Main components
 .pattern{
   background-image: url("pattern.png");
   position: fixed;
-  z-index: -400;
+  z-index: -10;
   background-repeat: repeat;
   height: 100%;
   width: 100%;
@@ -539,7 +539,7 @@ background-color:gray;
     overflow: hidden;
     height: 120%;
     width: 100%;
-    z-index: -150;
+    z-index: -10;
     opacity: 0.5;
    
 }
@@ -550,18 +550,21 @@ background-color:gray;
 
 
 .i{
-    visibility: visible;
-     z-index: -200;
-     opacity: 0;
+    visibility: hidden;
+     z-index: -5;
 }
 
+.q{
+  z-index: -5;
+  visibility: visible;
+}
 
 .f1{
     visibility: visible;
     position: fixed;
     top: 29%;
     right: 46%;
-    z-index: -100;
+    z-index: -30;
 
     transition: 2s; /* Opera *//**/
 }
@@ -571,7 +574,7 @@ background-color:gray;
     position: fixed;
     top: 19%;
     right: 51%;
-    z-index: -100;
+    z-index: -30;
 
     transition: 2s; /* Opera *//**/
 }
@@ -581,17 +584,9 @@ background-color:gray;
     position: fixed;
     top: 43%;
     right: 33%;
-    z-index: -100;
+    z-index: -30;
 
     transition: 2s; /* Opera *//**/
-}
-
-.map_container{
-  z-index: -250;
-}
-
-#img4{
-  overflow: hidden;
 }
 .zoom1{
     transform:scale(2,2) translate(0px,0px);
