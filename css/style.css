@@ -474,6 +474,25 @@ Main components
   opacity: 1;
 }
 
+#home{
+  overflow: hidden;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+#home img{
+  height: 50px;
+  opacity: 0.6;
+}
+
+#home img:hover{
+  opacity: 1;
+}
+
 .cd-date{
   color: white;
   font-size: 10px;
