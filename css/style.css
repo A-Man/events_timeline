@@ -787,3 +787,17 @@ background-color:gray;
   #b2:hover{
     opacity: 1;
   }
+
+  #back{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+  }
+
+  #back img{
+    height: 30px;
+    opacity: 0.85;
+  }
+
+  #back img:hover{
+    opacity: 1;
