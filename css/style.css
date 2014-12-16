@@ -762,3 +762,28 @@ background-color:gray;
   #eventgallery:hover #egallery{
     transform:translateX(1500px) rotate(30deg);
   }
+
+  #b1{
+    height: 40px;
+    border-radius: 40px;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 30px;
+    right: 20px; 
+  }
+
+  #b2{
+    height: 40px;
+    border-radius: 40px;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 30px;
+    right: 180px;
+  }
+
+  #b1:hover{
+    opacity: 1;
+  }
+  #b2:hover{
+    opacity: 1;
+  }
