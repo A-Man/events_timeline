@@ -24,11 +24,6 @@ if (!isset($_GET['isAjax'])) {
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="engine0/style.css" />
-	<script type="text/javascript" src="engine0/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section -->	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-
-	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
 	</head>
 	<body bgcolor="gray">
 		<?php }?>
@@ -39,37 +34,16 @@ if (!isset($_GET['isAjax'])) {
         <div class="demo" id="eventinfo">
 		    <h3><?php echo"{$description}"?></h3>
 			
-        	<div class="show-off" id="einfo"></div>
+        	<div class="show-off" id="einfo">ENGIFEST</div>
         </div>
         <div class="demo" id="eventgallery">
 		     <h2>Gallery</h2> 
-			  <div id="wowslider-container0">
-
-	<div class="ws_images"><ul>
-		<li><a href="http://wowslider.com/vf"><img src="data0/images/96667.jpg" alt="full screen slider" title="96667" id="wows0_0"/></a></li>
-		<li><img src="data0/images/120600.jpg" alt="120600" title="120600" id="wows0_1"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="96667"><img src="data0/tooltips/96667.jpg" alt="96667"/>1</a>
-		<a href="#" title="120600"><img src="data0/tooltips/120600.jpg" alt="120600"/>2</a>
-	</div></div><span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
-
-	<div class="ws_shadow"></div>
-
-	</div>	
-
-	<script type="text/javascript" src="engine0/wowslider.js"></script>
-
-	<script type="text/javascript" src="engine0/script.js"></script>
-
-	<!-- End WOWSlider.com BODY section -->	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<script type="text/javascript" src="engine0/wowslider.js"></script>
-	<script type="text/javascript" src="engine0/script.js"></script>
-	<!-- End WOWSlider.com BODY section --> 
+			  
         	<div class="show-off" id="egallery"></div>
         </div>
         	<div class="show-off" id="egallery"></div>
         </div>
+		<div id="back"><a href="index.html"><img src="css/back.png"></a></div>
    
  </body>
  </html>
