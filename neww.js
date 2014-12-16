@@ -66,7 +66,7 @@ $('#first').css('background-image','url(css/dj.jpg)');
 });
 
 $('#div2').hover(function(){
-$('#first').css('background-image','url(event2.jpg)');
+$('#first').css('background-image','url(event1.jpg)');
 //$('#cd-timeline').css('opacity','0.4');
 },
 function()
