@@ -670,6 +670,9 @@ background-color:gray;
 }
 
 /************************Glass effect**************************/
+#wrapglass{
+  background-color: red;
+}
 
 .demo
 { 

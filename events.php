@@ -26,6 +26,7 @@ if (!isset($_GET['isAjax'])) {
 	</head>
 	<body bgcolor="gray">
 		<?php }?>
+		<div id="wrapglass">
 		<div class="demo" id="eventname">
 		    <h2 style=<?php if(!isset($_GET['isAjax'])) echo"top:0px"; else echo""?>><?php echo"{$name}"?></h2>    
         	<div class="show-off" id="ename"></div>
@@ -40,9 +41,9 @@ if (!isset($_GET['isAjax'])) {
 			  
         	<div class="show-off" id="egallery"></div>
         </div>
-        	<div class="show-off" id="egallery"></div>
-        </div>
+
+    
 		<div id="back"><a href="index.html"><img src="css/back.png"></a></div>
-   
+       </div>
  </body>
  </html>
