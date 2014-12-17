@@ -698,7 +698,7 @@ background-color:gray;
 }
 
 #eventname{
-  position: absolute;
+  position: fixed;
   top: 30px;
   left: 20px;
   height: 70px;
@@ -727,7 +727,7 @@ background-color:gray;
 }
 
 #eventinfo{
-  position: absolute;
+  position: fixed;
   top: 120px;
   left: 20px;
   height: 510px;
@@ -748,7 +748,7 @@ background-color:gray;
   }
 
   #eventgallery{
-  position: absolute;
+  position: fixed;
   top: 30px;
   left: 640px;
   height: 600px;
@@ -794,7 +794,7 @@ background-color:gray;
   }
 
   #back{
-    position: absolute;
+    position: fixed;
     right: 10px;
     top: 0px;
   }
