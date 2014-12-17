@@ -44,37 +44,68 @@ case 'div5':
 desc.load('events.php?id=5&isAjax=true');
 break;
 }
+
 desc.css("visibility","visible");
+
+
 });
 
-// var coords = new Array();
-// coords["ANUSHTHAN"] = [12,12];
-// // <div class="x" data="ANUSHTHAN"></div>
-// $(".x").on("hover", function() {
-//   var data = $(this).attr("data");
-//   y(coords[data]);
-// });
-
-$('#div1').hover(function(){
+$('#cd-timeline').find('a').hover(function(){
+switch($(this).attr('id'))
+{
+case 'div1':
 $('#first').css('background-image','url(event1.jpg)');
-//$('#cd-timeline').css('opacity','0.4');
+break;
+case 'div2':
+$('#first').css('background-image','url(event2.jpg)');
+break;
+case 'div3':
+$('#first').css('background-image','url(event3.jpg)');
+break;
+case 'div4':
+$('#first').css('background-image','url(event4.jpg)');
+break;
+case 'div5':
+$('#first').css('background-image','url(event5.jpg)');
+break;
+}
+$('#div1').css('opacity','0');
+$('#div2').css('opacity','0');
+$('#div3').css('opacity','0');
+$('#div4').css('opacity','0');
+$('#div5').css('opacity','0');
+$('#div6').css('opacity','0');
+$('#div7').css('opacity','0');
+$('#div8').css('opacity','0.0');
+$('#div9').css('opacity','0.0');
+$('#div10').css('opacity','0.0');
+$('#div11').css('opacity','0.0');
+$('#div12').css('opacity','0.0');
+$('#div13').css('opacity','0.0');
+$(this).css('opacity','1');
 },
 function()
 {
 $('#first').css('background-image','url(css/dj.jpg)');
-//$('#cd-timeline').css('opacity','0.85');
+$('#div1').css('opacity','1');
+$('#div2').css('opacity','1');
+$('#div3').css('opacity','1');
+$('#div4').css('opacity','1');
+$('#div5').css('opacity','1');
+$('#div6').css('opacity','1.0');
+$('#div7').css('opacity','1.0');
+$('#div8').css('opacity','1.0');
+$('#div9').css('opacity','1.0');
+$('#div10').css('opacity','1.0');
+$('#div11').css('opacity','1.0');
+$('#div12').css('opacity','1.0');
+$('#div13').css('opacity','1.0');
 });
-
-$('#div2').hover(function(){
-$('#first').css('background-image','url(event1.jpg)');
-//$('#cd-timeline').css('opacity','0.4');
-},
-function()
-{
-$('#first').css('background-image','url(css/dj.jpg)');
-//$('#cd-timeline').css('opacity','0.85');
+// not working
+/*$('#back').find('a').on('click',function(e){
+e.preventDefault();
+alert("yeah u clicked it");
+$('#hiddendiv').css('visibility','hidden');
 });
-
-
-
+*/
 });
