@@ -563,7 +563,7 @@ background-color:gray;
     overflow: hidden;
     height: 120%;
     width: 100%;
-    z-index: -5;
+    z-index: -10;
     opacity: 0.5;
    
 }
@@ -572,6 +572,10 @@ background-color:gray;
   height: 120%;
 }
 
+#img4{
+  height: 0px;
+  width: 0px;
+}
 
 .i{
     visibility: hidden;
@@ -579,36 +583,44 @@ background-color:gray;
 }
 
 .q{
-  z-index: -5;
+  height: 80px;
+  width: 40px;
+  z-index: 1000;
   visibility: visible;
 }
 
 .f1{
+  height: 80px;
+  width: 40px;
     visibility: visible;
     position: fixed;
     top: 29%;
     right: 46%;
-    z-index: -30;
+    z-index: 5000;
 
     transition: 2s; /* Opera *//**/
 }
 
 .f2{
+  height: 80px;
+  width: 40px;
     visibility: visible;
     position: fixed;
     top: 19%;
     right: 51%;
-    z-index: -30;
+    z-index: 5000;
 
     transition: 2s; /* Opera *//**/
 }
 
 .f3{
+  height: 80px;
+  width: 40px;
     visibility: visible;
     position: fixed;
     top: 43%;
     right: 33%;
-    z-index: -30;
+    z-index: 5000;
 
     transition: 2s; /* Opera *//**/
 }
