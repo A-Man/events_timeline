@@ -36,7 +36,7 @@ if (!isset($_GET['isAjax'])) {
 		     <a href="#"><img src="css/button1.png" id="b1"></a>
 		     <a href="#"><img src="button1.png" id="b2"></a>
 			
-        	<div class="show-off" id="einfo">ENGIFEST</div>
+        	<div class="show-off" id="einfo"></div>
         </div>
         <div class="demo" id="eventgallery">
 		     <h2>Gallery</h2> 
