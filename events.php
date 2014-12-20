@@ -33,6 +33,8 @@ if (!isset($_GET['isAjax'])) {
         </div>
         <div class="demo" id="eventinfo">
 		    <h3><?php echo"{$description}"?></h3>
+		     <a href="#"><img src="css/button1.png" id="b1"></a>
+		     <a href="#"><img src="button1.png" id="b2"></a>
 			
         	<div class="show-off" id="einfo">ENGIFEST</div>
         </div>
